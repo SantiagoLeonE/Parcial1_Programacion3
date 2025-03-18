@@ -6,7 +6,7 @@ defmodule Inventario do
     |> Util.ingresar(:texto)
 
     cantidad_a_comprar = "Ingrese la cantidad que desea comprar: "
-      |> Util.ingresar(:entero)
+    |> Util.ingresar(:entero)
 
     inventario_actualizado = actualizar_inventario(inventario, producto_a_comprar, cantidad_a_comprar)
 
@@ -18,7 +18,7 @@ defmodule Inventario do
     productos = Map.keys(inventario)
 
     if Enum.member?(productos, producto) do
-      case Map.get(inventario, producto) > cantidad do
+      case Map.get(inventario, producto) >= cantidad do
         true -> %{inventario | producto => Map.get(inventario, producto) - cantidad}
         _ -> "Stock insuficiente"
       end
