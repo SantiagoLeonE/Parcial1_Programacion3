@@ -1,0 +1,20 @@
+Punto 4
+
+Abstracción
+¿Que se solicita finalmente?
+- Implementar una función para evaluar un proyecto que recibe un mapa de calificaciones y el nombre del estudiante
+
+¿Qué información es relevante?
+- El profesor tiene un mapa donde la clave es el nombre del estudiante y el valor es una lista con sus calificaciones
+
+Descomposición
+¿Que acciones se requieren?
+- Ingresar el nombre del estudiante
+- Crear el mapa del profesor
+- Evaluar el proyecto del respectivo estudiante
+- Generar mensaje
+- Mostrar mensaje
+
+Reconocimiento de patrones
+- ingresar_texto
+- mostrar_mensaje

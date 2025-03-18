@@ -1,0 +1,20 @@
+Punto 3
+
+Abstracción 
+¿Que se solicita finalmente?
+- Calcular el desempeño de ventas de un producto en un mes
+
+¿Que información es relevante?
+- Se tiene un mapa con los días de mes como claves y las ventas de ese día como valores
+
+Descomposición
+- ¿Que acciones se requiere?
+- Crear un mapa con las ventas diarias
+- Analizar las ventas
+- Calcular el total de ventas
+- Calcular promedio de ventas
+- Generar mensaje
+- Mostrar mensaje
+
+Reconocimiento de patrones
+- mostrar_mensaje

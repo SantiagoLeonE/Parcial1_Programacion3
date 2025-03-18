@@ -1,0 +1,17 @@
+a. B(%{total: 15, count: 5})
+
+b. La salida es 22
+
+c. A(20 y Formato incorrecto)
+
+d. B(20)
+lista = [1, 2, 3, 4] 
+resultado = Enum.reduce(lista, 10, fn x, acc -> acc + x end)
+El resultado es veinte, por que la línea de código Enum.reduce(lista, 10, fn x, acc -> acc + x end) lo que hace el método .reduce es sumar, entonces este recibe como parametro una lista, el valor en el que va a empezar la suma que es 10(acc) y por último una función que lo que hace es sumar el primer valor de la lista con el acc, lo cual hace cambiar el valor del acc inicial y sumarle el segundo valor de la lista, así hasta acabar con todos los valores de la lista. 
+
+e. D(Error de sintaxis)
+En este bloque de código
+list = [1, 2, 3]
+result = Enum.map(list, fn x -> x*2 end)
+IO.puts(result)
+Lo que se hace es definir una lista con 3 valores, luego el Enum.map lo que hace es transformar, este método recibe dos parámetros, primero la lista que se definió primeramente y luego una función que lo que hace es multiplicar por 2 cada valor de la lista, a estos nuevos valores les corresponde la variable result, debido a que es una lista se debe mostrar con IO.inspect(result) y en el código inicial se trata de imprimir con IO.puts(result) por la tanto en la terminal se mostrará un error de sintaxis. 

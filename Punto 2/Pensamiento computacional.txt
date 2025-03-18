@@ -1,0 +1,22 @@
+Punto 2
+
+Abstracción
+¿Qué se solicita finalmente?
+- Almacenar el inventario de una tienda usando mapas
+
+¿Qué información es relevante?
+- Los productos y las cantidades que hay de cada uno
+
+Descomposición
+¿Qué acciones se requieren para resolverlo?
+- Ingresar el producto que se quiere comprar
+- Ingresar la cantidad que se quiere comprar
+- Definir un mapa con productos(claves) y sus cantidades(valores)
+- Actualizar el inventario
+- Generar mensaje
+- Mostrar mensaje
+
+Reconocomiento de patrones
+- ingresar_texto
+- ingresar_entero
+- mostrar_mensaje
